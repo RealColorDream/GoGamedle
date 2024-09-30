@@ -1,0 +1,8 @@
+github.com/Henry-Sarabia/apicalypse v1.0.3 h1:/1dQ+HtjEDWdvolCbGJTSok8RqgtVj4tGQQss0XI6hY=
+github.com/Henry-Sarabia/apicalypse v1.0.3/go.mod h1:g1fm+dAINHGUiAzCq3SfcDH7oIGZy/8yQh4BNQ6tXfE=
+github.com/Henry-Sarabia/blank v3.0.0+incompatible h1:3JfHWx7YVr1bA+9aK1J2w9TrFpwAHfPibHOq4qwicSc=
+github.com/Henry-Sarabia/blank v3.0.0+incompatible/go.mod h1:EKLnM7Lq0E08WmivZuJoo099i07THd4ISgOBs3wOKTw=
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
