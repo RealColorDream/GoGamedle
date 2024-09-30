@@ -22,7 +22,21 @@ func init() {
 }
 
 func main() {
-	queryGame()
-	var game = readData("response_body.json")
-	displayGameDetails(game)
+	/*	queryGame()
+		var game = readData("response_body.json")
+		displayGameDetails(game)
+		server()*/
+
+	img, err := openImage("image.jpg")
+	if err != nil {
+		log.Fatalf("Failed to open image: %v", err)
+	}
+
+	pixelSize := 50
+	pixelatedImg := pixelate(img, pixelSize)
+
+	err = saveImage(pixelatedImg, "pixelated.png")
+	if err != nil {
+		log.Fatalf("Failed to save image: %v", err)
+	}
 }
