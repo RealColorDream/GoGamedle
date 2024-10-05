@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func queryGame() {
+func queryGame() []byte {
 	clientID := os.Getenv("CLIENT_ID")
 	accessToken := os.Getenv("ACCESS_TOKEN")
 
@@ -47,11 +47,5 @@ func queryGame() {
 		log.Fatalf("[QUERY] Failed to read response body: %v", err)
 	}
 
-	err = os.WriteFile("response_body.json", body, 0644)
-
-	if err != nil {
-		log.Fatalf("[QUERY] Failed to write response body to file: %v", err)
-	}
-
-	log.Printf("[QUERY] Response body saved to response_body.json")
+	return body
 }
