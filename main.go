@@ -22,5 +22,7 @@ func init() {
 }
 
 func main() {
-	parse_into_db()
+	/*	parse_into_db()*/
+	/*server()*/
+	server2()
 }
